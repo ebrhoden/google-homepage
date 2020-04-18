@@ -1,0 +1,176 @@
+<style>
+
+
+    figure img{
+        width: 272px;
+        height: 92px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #form1{
+        text-align: center;
+    }
+
+    #form1 input{
+        width: 600px;
+        height: 40px;
+        border: 1px solid lightgray;
+        border-radius: 40px;
+        
+    }
+
+    #button_lucky, #button_search{
+        font-family: monospace;
+        font-size: 12px;
+        height: 35px;
+        width: 190px;
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(220,220,220);
+        border-radius: 5px;
+        
+    }
+
+    #button_lucky:hover, #button_search:hover{
+        font-weight: bold;
+        
+    }
+
+    #container_buttons{
+        text-align: center;
+    }
+
+    header{
+        font-size: 16px;
+        font-family: monospace;
+        padding-bottom: 200px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    
+    
+    header button{
+        background-color: rgb(65,105,225);
+        height: 25px;
+
+        font-size: 16px;
+        font-family: monospace;
+    }
+
+    #about, #store, #gmail, #images{
+        text-decoration: none;
+        color: black;
+        padding-left: 10px;
+    }
+        
+    #about:hover, #store:hover, #gmail:hover, #images:hover{
+        text-decoration: underline;
+
+
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    li{
+        display:inline;
+    }
+
+
+    .search{
+        padding-left: 40px;
+        font-size: 20px;
+        font-family: monospace;
+    }
+
+    .search:focus{
+        outline: none;
+    }
+
+    .search:hover{
+        box-shadow: 3px 3px 10px 0px #888888;
+    }
+
+    #sign_in{
+        float: right;
+        margin-left: 25px;
+    }
+
+    #advertising, #business, #how_search_works, #privacy, #terms, #settings{
+        color:black;
+        text-decoration: none;
+        font-family: monospace;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    #advertising:hover, #business:hover, #how_search_works:hover, #privacy:hover, #terms:hover, #settings:hover{
+        text-decoration: underline;
+    }
+
+    footer ul{
+        position: fixed;
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        background-color: rgb(220,220,220);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+  
+
+    #settings, #terms, #privacy{
+        float:right;
+        padding-right: 10px;
+    }
+
+</style>
+
+<header>
+    <ul>
+        <li><a href="" id="about">About</a></li>
+        <li><a href="" id="store">Store</a> </li>
+        <li><a href="" id="gmail">Gmail</a> </li>
+        <li><button id="sign_in" type="submit" form="form3" value="Sign in">Sign in</button> </li>
+        <li style="float:right"><a href="" id="images">Images</a> </li>
+    </ul>  
+</header>
+
+<body>
+
+    <figure>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="google-logo">	
+    </figure>
+
+    <form id="form1" action=" ">
+        <label for="search"></label>
+        <input type="text" class="search" name="search">
+    </form>
+
+    <form id="form2" action=" ">   
+    </form>
+    
+    <div id="container_buttons">
+        <button id="button_lucky" type="submit" form="form2" value="Lucky">I'm feeling lucky</button>
+        <button id="button_search" type="submit" form="form1" value="Submit">Google search</button>
+    </div>
+
+</body>
+
+<footer>
+    <ul>
+        <li><a href="" id="advertising">Advertising</a></li>
+        <li><a href="" id="business">Business</a> </li>
+        <li><a href="" id="how_search_works">How search works</a> </li>
+        <li><a href="" id="privacy">Privacy</a> </li>
+        <li><a href="" id="Terms">Terms</a> </li>
+        <li><a href="" id="Settings">Settings</a> </li>
+    </ul>  
+
+</footer>
